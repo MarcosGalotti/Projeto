@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+:root{
+    font-family: "Alice", serif;
+    background-color: burlywood;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: orangered;
+}
+
+img{
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 750px;
+    height: 300px;
+}
+
+#page{
+    width: 800px;
+    box-sizing: border-box;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: 48px auto 28px;
+}
+
+p{
+    text-align: justify;
+}
+
+#page h2+p {
+    padding-top: 15px;
+} 
+
+#page h2 + ul {
+    padding-top: 15px;
+}
+
+ul{
+    padding-left: 28px;
+}
+
+section{
+    padding-bottom: 15px;
+}
+
+#voltar{
+    font-size: 24px;
+    text-decoration: none;
+    padding-left: 7px;
+    color: orangered;
+}
+
+#botão{
+    box-sizing: border-box;
+    margin-left: auto;
+    width: 80px;
+    height: 30px;
+    background-color: burlywood;
+}
