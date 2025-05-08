@@ -1,0 +1,29 @@
+@import url(global.css);
+
+main {
+    display: flex;
+    gap: 10px 24px;
+    flex-wrap: wrap;
+    width: 1280px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    /* Podendo usar padding-block para os dois */
+}
+
+main #foto{
+    width: 286px;
+    height: 286px;
+    /* object-fit: cover;  Necessário se a imagem não for um quadrado perfeito, evitando que fique esticada*/
+}
+
+main p{
+    font: var(text-md);
+    opacity: 0;
+}
+
+#mensagem:hover p{
+    color: orangered;
+    font: var(text-md);
+    opacity: 1;
+    text-align: center;
+}
