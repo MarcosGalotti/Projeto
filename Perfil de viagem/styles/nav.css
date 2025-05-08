@@ -15,6 +15,7 @@ nav ul{
     align-items: center;
     gap: 24px;
     padding-block: 8px;
+    font: var(--text);
 }
 
 nav ul li:last-child img{
