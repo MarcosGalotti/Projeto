@@ -1,0 +1,17 @@
+@import url(global.css);
+ 
+footer{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+    font: 14px/150% var(--font-family);
+}
+
+footer span:nth-child(1){
+    margin-right: auto;
+}
+
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}

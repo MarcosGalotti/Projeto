@@ -22,7 +22,7 @@ main p{
 }
 
 #mensagem:hover p{
-    color: orangered;
+    color: #EF5F4C;
     font: var(text-md);
     opacity: 1;
     text-align: center;
