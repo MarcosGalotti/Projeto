@@ -21,6 +21,10 @@ main p{
     opacity: 0;
 }
 
+#mensagem:hover {
+    transform: scale(1.05);
+}
+
 #mensagem:hover p{
     color: #EF5F4C;
     font: var(text-md);
