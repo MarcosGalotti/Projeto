@@ -22,4 +22,15 @@
         /* Background linear gradient, primeiro escolhe o grau, no caso de cima pra baixo 180, após a opacidade que irá começar 0%, depois a cor final bem como a porcentagem que irá aparecer quanto maior mais "invisível"*/
         background: linear-gradient(180deg, transparent 0%, #020617 100%);
     }
+    
+    figcaption{
+        position: absolute;
+        bottom: 0;
+
+        padding: 24px;
+    }
+
+    h2{
+        margin-top: 8px;
+    }
 }
