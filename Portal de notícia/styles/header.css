@@ -1,0 +1,25 @@
+#primary{
+    padding-block: 20px;
+
+    div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* Nesting css - Pegar uma div especifica dentro de uma div com id, sem precisar criar outra div com id ou class. Utilizando nth-Child */
+    div:nth-Child(2){
+        margin-inline: auto;
+    }
+
+    div:nth-Child(3){
+        justify-self: end;
+    }
+}
+
+#secondary{
+    padding-block: 14px;
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
+    justify-content: space-between;
+}
