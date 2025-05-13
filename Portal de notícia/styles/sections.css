@@ -6,3 +6,20 @@
         border-radius: 4px;
     }
 }
+
+.card{
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    /* &::before o & significa que estou chamando o card, o msm que ter feito .card::Before */
+
+    &::before{
+        content: "";
+        position: absolute;
+        inset: 0;
+        /* 50% para o efeito ficar somente na metade da imagem */
+        top: 50%;
+        /* Background linear gradient, primeiro escolhe o grau, no caso de cima pra baixo 180, após a opacidade que irá começar 0%, depois a cor final bem como a porcentagem que irá aparecer quanto maior mais "invisível"*/
+        background: linear-gradient(180deg, transparent 0%, #020617 100%);
+    }
+}
