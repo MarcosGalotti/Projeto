@@ -22,11 +22,6 @@
 
 }
 
-.container{
-    max-width: 1280px;
-    padding-inline: 32px;
-    margin-inline: auto;
-}
 
 body{
     font: var(--text);
@@ -47,11 +42,16 @@ h1, h2, h3 {
     font: inherit;
 }
 
-/* Utility first - Uma classe para fazer apenas uma coisa */
-.grid{
-    display: grid;
+img{
+    max-width: 100%;
 }
 
-.grid-flow-col{
-    grid-auto-flow: column;
+.container{
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
+main{
+    margin-top: 40px;
 }
