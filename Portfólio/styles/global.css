@@ -42,3 +42,7 @@ body{
     padding-inline: 120px;
     margin-inline: auto;
 }
+
+span{
+    color: var(--purple);
+}
