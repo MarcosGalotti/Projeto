@@ -15,9 +15,8 @@
     width: 1040px;
     height: 447px;
     gap: 80px;
-}
 
-header{
+    header{
     display: flex;
     gap:56px;
     align-items: center;
@@ -30,6 +29,9 @@ header{
         height: 112px;
     }
 }
+
+}
+
 
 .bio{
     display: flex;
@@ -64,3 +66,4 @@ header{
         background-color: var(--gray-300);
     }
 }
+
