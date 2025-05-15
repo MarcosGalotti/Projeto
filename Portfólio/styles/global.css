@@ -19,7 +19,7 @@
     --yellow:#EABD5F;
 
     --font-family-asap: 'ASAP', 'sans-serif';
-    --title-lg: 800 56px/120% var(--font-family-asap);
+    --tittle-lg: 800 56px/120% var(--font-family-asap);
     --tittle-md: 800 24px/120% var(--font-family-asap);
     --tittle-sm: 800 16px/120% var(--font-family-asap);
 
@@ -33,4 +33,12 @@
 
 body{
     font: var(--text-md);
+    background-color: var(--gray-300);
+    color: var(--gray-500);
+}
+
+.container{
+    max-width: 1366px;
+    padding-inline: 120px;
+    margin-inline: auto;
 }

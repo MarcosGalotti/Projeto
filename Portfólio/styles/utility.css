@@ -1,0 +1,24 @@
+
+.tittle-lg{
+    font: var(--tittle-lg);
+}
+
+.tittle-md{
+    font: var(--tittle-md);
+}
+
+.tittle-sm{
+    font: var(--tittle-sm);
+}
+
+.subtitle{
+    font: var(--subtitle);
+}
+
+.text-md{
+    font: var(--text-md);
+}
+
+.text-sm{
+    font: var(--text-sm);
+}
