@@ -19,9 +19,9 @@
     --yellow:#EABD5F;
 
     --font-family-asap: 'ASAP', 'sans-serif';
-    --tittle-lg: 800 56px/120% var(--font-family-asap);
-    --tittle-md: 800 24px/120% var(--font-family-asap);
-    --tittle-sm: 800 16px/120% var(--font-family-asap);
+    --tittle-lg: 700 56px/120% var(--font-family-asap);
+    --tittle-md: 700 24px/120% var(--font-family-asap);
+    --tittle-sm: 700 16px/120% var(--font-family-asap);
 
     --font-family-inco: 'Inconsolata', 'sans-serif';
     --subtitle: 400 20px/120% var(--font-family-inco);
@@ -39,7 +39,6 @@ body{
 
 .container{
     max-width: 1366px;
-    /* padding-inline: 120px; */
     margin-inline: auto;
 }
 
