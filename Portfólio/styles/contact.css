@@ -37,18 +37,18 @@
             border-radius: 8px;
             padding: 20px;
             width: 400px;
-            height: 68px;
-
-            h3{
-                width: 288px;
-            } 
+            height: 68px;   
+            
+            & :nth-child(3){
+            margin-left: auto;
+        }
         }
 
         .link:hover{
             border: 1.5px solid var(--blue);
         }
     
-   
+        
 
     
 }
