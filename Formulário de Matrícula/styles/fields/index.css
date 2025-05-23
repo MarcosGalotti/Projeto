@@ -24,7 +24,7 @@ input:focus,
 textarea:focus, 
 select:focus, 
 input[type="date"]:focus-within{
-    
+
     outline: 0.25rem solid var(--surface-secondary);
     border: 0.125rem solid var(--stroke-highlight);
     /* comando abaixo é somente para a bordar aparecer no navegador safari */
@@ -58,4 +58,26 @@ select{
         Se colocasse apenas right ele ficaria no canto e teria que usar outros meios para alinhar na base do "chute"
     */
     background: url(../../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
+}
+
+.address > div{
+    /* Pode ser feito como .address . flex 
+        Ambos significa o caminho, o primeiro está pegando as div dentro do address, somente no primeiro nível, ou seja se tiver uma div dentro da div não se aplica.
+        O segundo está pegando dentro do address que tenha uma classe flex aplicada
+    */
+    gap: 1.25rem;
+}
+
+.input-wrapper:has([disabled]){
+    opacity: 0.5;
+}
+
+input{
+    &[disabled]{
+        background-color: var(--surface-disabled);
+
+        border: 1px solid var(--stroke-default);
+
+        color: var(--text-primary);
+    }
 }
